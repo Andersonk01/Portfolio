@@ -14,7 +14,7 @@ export default function Projects() {
     <main className="flex min-h-screen flex-col items-center justify-between p-2 mt-20">
       <section className="flex flex-col items-center w-full min-h-[80vh] h-full p-2">
         <h1
-          className={`${permanent_marker.className} font-sans text-center w-full text-4xl text-[#449cd2] opacity-5 mb-6 animate-pulse`}
+          className={`${permanent_marker.className} font-sans text-center w-full text-4xl text-[#449cd2] opacity-5 mb-6`}
         >
           Projects
         </h1>
