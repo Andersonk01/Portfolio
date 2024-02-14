@@ -1,7 +1,5 @@
-import Link from "next/link";
-import { FaGithubAlt } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import Link from 'next/link';
+import { FaLinkedinIn, FaInstagram, FaGithubAlt } from 'react-icons/fa';
 
 export const Social = ({ sizeIcon = 24 }: { sizeIcon: number }) => {
   return (

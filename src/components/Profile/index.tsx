@@ -1,24 +1,24 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-import { Button } from "../ui/button";
-import { Social } from "../Social";
+import { Button } from '../ui/button';
+import { Social } from '../Social';
 
 export const Profile = () => {
   return (
     <section className="relative shadow-sm shadow-white container mx-auto p-4 bg-[#5fa8df] rounded-lg  min-w-32 max-h-min  sm:w-[80%]">
-      <div className="absolute right-1 top-1 border-r-2 border-t-2 border-yellow-400  rounded-r-sm ">
+      <div className="absolute right-1 top-1 border-r-2 border-t-2 border-[#A63838]  rounded-r-sm ">
         <Button
-          variant={"ghost"}
-          size={"sm"}
-          className="font-mono font-medium text-sm rounded-none"
+          variant="ghost"
+          size={'sm'}
+          className="font-mono font-medium text-sm rounded-none hover:bg-[#F26E50]"
         >
           EN
         </Button>
         <Button
-          variant={"ghost"}
-          size={"sm"}
-          className="font-mono font-medium text-sm rounded-none"
+          variant="ghost"
+          size={'sm'}
+          className="font-mono font-medium text-sm rounded-none hover:bg-[#F26E50]"
         >
           PT
         </Button>
@@ -26,15 +26,15 @@ export const Profile = () => {
       <div className="grid-cols-2 flex flex-col gap-6 md:grid">
         <span className="flex flex-col justify-start items-start p-3">
           <Button
-            variant={"secondary"}
-            size={"sm"}
-            className="font-mono font-extralight bg-yellow-400 text-[0.6rem] rounded-none opacity-85 h-[18px] cursor-default"
+            variant={'secondary'}
+            size={'sm'}
+            className="font-mono font-extralight bg-[#F2B279] text-[0.6rem] rounded-none opacity-85 h-[18px] cursor-default"
           >
-            One step at a time...🔥{" "}
+            One step at a time...🔥{' '}
           </Button>
           <h1 className="text-4xl font-bold mb-2 mt-2 ">
-            Anderson <strong className="text-yellow-400">K</strong>auê
-            <strong className="text-yellow-400">r</strong>
+            Anderson <strong className="text-[#F26E50]">K</strong>au
+            <strong className="text-[#F26E50]">êr</strong>
           </h1>
           <h2 className="mb-4">Desenvolvedor Front End</h2>
 
@@ -45,7 +45,7 @@ export const Profile = () => {
 
           <Link href="#">
             <Button
-              variant={"ghost"}
+              variant={'ghost'}
               className="rounded-sm font-light text-black border"
             >
               Download my resume (PDF)
