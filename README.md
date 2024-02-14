@@ -10,3 +10,4 @@ Meu portfolio anderson-k.vercel.app, apresenta alguns dos meus projetos no githu
 - Tailwind
 - VsCode
 - Vercel
+- Shadc ui
