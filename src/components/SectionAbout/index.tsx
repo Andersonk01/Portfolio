@@ -1,11 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
-
-// bg-fixed bg-[url('/image/sample.gif')]  bg-center bg-no-repeat bg-coover
 
 export const SectionAbout: React.FC = () => {
   return (
-    <section className="flex h-[100vh] w-full overflow-hidden mt-16 z-10 rounded-md ring-1 ring-[#F2B279]">
+    <section className="flex h-[90vh] w-full overflow-hidden mt-16 z-10 rounded-md ring-1 ring-[#F2B279]">
       <i id="sobre" className="hidden"></i>
       <div className="text-white grid-cols-2 flex flex-col md:grid bg-[#00000040] p-4">
         <span className="flex justify-center items-center w-full"></span>
