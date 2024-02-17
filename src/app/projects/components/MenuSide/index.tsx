@@ -3,7 +3,6 @@ import React from 'react';
 import {
   HomeIcon,
   GanttChartSquare,
-  FolderKanban,
   CircleUserRound,
 } from 'lucide-react';
 
@@ -17,12 +16,7 @@ const NavBar = () => {
         >
           <HomeIcon size={14} />
         </Link>
-        <Link
-          href="/projects"
-          className="shadow-md shadow-gray-800 rounded-full text-gray-900 hover:bg-white bg-[#ffffff8d] p-2 text-sm font-medium"
-        >
-          <FolderKanban size={14} />
-        </Link>
+
         <Link
           href="/"
           className="shadow-md shadow-gray-800 rounded-full text-gray-900 hover:bg-white bg-[#ffffff8d] p-2 text-sm font-medium"

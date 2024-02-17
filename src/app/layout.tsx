@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { JetBrains_Mono } from 'next/font/google';
-// import { Footer } from "@/components/Footer"; // fase de testes
-import { HeaderMain } from '@/components/HeaderMain';
+// import { Footer } from '@/components/Footer';
 import './globals.css';
 
 const jetBrainsMono = JetBrains_Mono({
@@ -21,10 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={jetBrainsMono.className}>
-        <HeaderMain />
-        {children}
-      </body>
+      <body className={jetBrainsMono.className}>{children}</body>
     </html>
   );
 }

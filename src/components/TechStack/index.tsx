@@ -1,6 +1,6 @@
-import React from "react";
-import { BiLogoTypescript } from "react-icons/bi";
-import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
+import React from 'react';
+import { BiLogoTypescript } from 'react-icons/bi';
+import { FaCss3Alt, FaHtml5 } from 'react-icons/fa';
 import {
   DiJavascript1,
   DiReact,
@@ -8,55 +8,55 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-} from "react-icons/di";
+} from 'react-icons/di';
 import {
   SiMysql,
   SiNextdotjs,
   SiStyledcomponents,
   SiTailwindcss,
-} from "react-icons/si";
+} from 'react-icons/si';
 
 export const Tech = () => {
   return (
-    <section className="p-4 pt-8 w-full h-min flex flex-wrap justify-center gap-2 -z-10 -mt-4">
+    <section className="p-4 w-full h-min flex flex-wrap justify-center gap-2 -z-10 mt-4">
       <span className="p-4 rounded-md w-min h-min border border-gray-800 hover:scale-110">
-        <BiLogoTypescript size={60} />
+        <BiLogoTypescript size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 shadow-md hover:scale-110">
-        <DiJavascript1 size={60} />
+        <DiJavascript1 size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 shadow-xl hover:scale-110">
-        <DiReact size={60} />
+        <DiReact size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 hover:scale-110">
-        <SiTailwindcss size={60} />
+        <SiTailwindcss size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 hover:scale-110">
-        <SiStyledcomponents size={60} />
+        <SiStyledcomponents size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 hover:scale-110">
-        <FaCss3Alt size={60} />
+        <FaCss3Alt size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 hover:scale-110">
-        <FaHtml5 size={60} />
+        <FaHtml5 size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 hover:scale-110">
-        <DiNodejs size={60} />
+        <DiNodejs size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 hover:scale-110">
-        <DiMongodb size={60} />
+        <DiMongodb size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 hover:scale-110">
-        <SiNextdotjs size={60} />
+        <SiNextdotjs size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 hover:scale-110">
-        <DiGit size={60} />
+        <DiGit size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 hover:scale-110">
-        <SiMysql size={60} />
+        <SiMysql size={30} />
       </span>
       <span className="p-4 rounded-md border w-min h-min border-gray-800 hover:scale-110">
-        <DiPython size={60} />
+        <DiPython size={30} />
       </span>
     </section>
   );

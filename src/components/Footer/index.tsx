@@ -1,6 +1,6 @@
-"use client";
-import React from "react";
-import { Social } from "../Social";
+'use client';
+import React from 'react';
+import { Social } from '../Social';
 
 export const Footer = () => {
   return (

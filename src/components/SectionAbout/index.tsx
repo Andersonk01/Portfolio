@@ -2,13 +2,15 @@ import React from 'react';
 
 export const SectionAbout: React.FC = () => {
   return (
-    <section className="flex h-[90vh] w-full overflow-hidden mt-16 z-10 rounded-md ring-1 ring-[#F2B279]">
-      <i id="sobre" className="hidden"></i>
-      <div className="text-white grid-cols-2 flex flex-col md:grid bg-[#00000040] p-4">
-        <span className="flex justify-center items-center w-full"></span>
+    <section
+      id="sobre"
+      className="relative flex h-max w-full mt-16 rounded-md bg-[#00000040] border border-[#F2B279]"
+    >
+      <div className="text-white grid-cols-2 flex flex-col md:grid p-4">
+        <span className=" w-full md:h-[90vh] max-h-[972px]" />
 
         <div className="flex items-center justify-center w-full">
-          <span className="bg-[#00000050]  p-6 h-min text-base">
+          <span className="bg-[#00000050] p-6 h-min text-base">
             <h2 className="text-4xl mb-7">
               Um Pouco <strong className="text-[#F26E50]">sobre mim</strong>
             </h2>
